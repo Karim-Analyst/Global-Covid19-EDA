@@ -21,12 +21,19 @@ This project performs **Exploratory Data Analysis (EDA)** on global COVID-19 dat
 ## Repository Structure
 
 Global-Covid19-EDA/
+
 │
+
 ├── README.md
+
 ├── sql/
+
 │   └── Global-Covid19-EDA.sql   <-- Main SQL script
+
 ├── data/
+
 │   ├── CovidDeath.xlsx          <-- Raw COVID deaths data
+
 │   └── CovidVaccination.xlsx    <-- Raw vaccination data
 
 
