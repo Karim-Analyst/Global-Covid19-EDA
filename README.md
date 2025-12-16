@@ -18,9 +18,14 @@ This project performs **Exploratory Data Analysis (EDA)** on global COVID-19 dat
 - Global summary of cases and deaths
 
 ## Repository Structure
-
-sql/
-└── Global-Covid19-EDA <-- Main SQL script
+Global-Covid19-EDA/
+│
+├── README.md
+├── sql/
+│   └── Global-Covid19-EDA.sql   <-- Main SQL script
+├── data/
+│   ├── CovidDeath.xlsx          <-- Raw COVID deaths data
+│   └── CovidVaccination.xlsx    <-- Raw vaccination data
 
 ## Outcome
 The SQL script creates **analysis-ready tables and views** for COVID-19 cases, deaths, and vaccinations, ready for visualization and reporting.
